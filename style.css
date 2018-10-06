@@ -71,3 +71,24 @@ section{
   border-left: 10px solid black;
   background:rgba(0,0,0,0.2);
 }
+
+.footer{
+  background:rgba(0,0,0,0.5);
+  height: 7vh;
+  position: relative;
+}
+.credits{
+  color: white;
+  line-height: 7vh;
+  font-size: 2vh;
+  margin-left: 2%;
+}
+.socialIcons{
+  width: 20%;
+  margin-left: 60%;
+  margin-right: 20%;
+}
+.socialIcons i{
+  vertical-align: middle;
+  color: white;
+}
