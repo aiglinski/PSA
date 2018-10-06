@@ -1,0 +1,73 @@
+body, html {
+  height: 100%;
+}
+
+
+
+
+body {
+  background-image: url("../img/background.jpg");
+  /* height: 100%; */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+section{
+  width: 90%;
+  margin-left: 5%;
+  font-family: 'Abel', sans-serif;
+}
+
+.TitleBlock {
+  height: 30vh;
+  text-align: center;
+  border-bottom: 5px double;
+}
+
+.TitleBlock h1{
+  font-size: 8vh;
+  color: #006597;
+  text-transform: uppercase;
+  padding-top: 5vh;
+}
+
+.TitleBlock p{
+  color: #006597;
+  font-size: 3vh;
+  line-height: 0px;
+}
+
+.BackgroundOpacity{
+  background:#7f7f7f;
+  background:rgba(255,255,255,0.5);
+  width: 80%;
+  margin-left: 10%;
+  height: 100%;
+}
+
+.sectionTitle{
+  text-align: right;
+  font-style: italic;
+}
+
+.articletext{
+  text-align: right;
+  padding: 15px;
+  border-right: 10px solid black;
+  background:rgba(0,0,0,0.2);
+}
+
+.sectionTitleLeft{
+  text-align: left;
+  font-style: italic;
+}
+
+.articletextLeft{
+  text-align: left;
+  padding: 15px;
+  border-left: 10px solid black;
+  background:rgba(0,0,0,0.2);
+}
