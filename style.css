@@ -73,12 +73,13 @@ section{
 }
 
 .footer{
-  background:rgba(0,0,0,0.5);
+  background:rgba(0,0,0,0.3);
   height: 7vh;
   position: relative;
 }
 .credits{
   color: white;
+  width: 20%;
   line-height: 7vh;
   font-size: 2vh;
   margin-left: 2%;
@@ -90,5 +91,19 @@ section{
 }
 .socialIcons i{
   vertical-align: middle;
-  color: white;
+  color: #8DB9ED;
+  padding: 0px 8px;
+}
+
+.emailIcon i:hover{
+  color: #DA3F2B;
+  transform: scale(1.2);
+}
+.twitterIcon i:hover{
+  color: #34A1F2;
+  transform: scale(1.2);
+}
+.blogIcon i:hover{
+  color: #3D98A8;
+  transform: scale(1.2);
 }
