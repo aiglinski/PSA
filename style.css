@@ -98,12 +98,15 @@ section{
 .emailIcon i:hover{
   color: #DA3F2B;
   transform: scale(1.2);
+  transition: .3s;
 }
 .twitterIcon i:hover{
   color: #34A1F2;
   transform: scale(1.2);
+  transition: .3s;
 }
 .blogIcon i:hover{
   color: #3D98A8;
   transform: scale(1.2);
+  transition: .3s;
 }
