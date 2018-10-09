@@ -29,15 +29,10 @@ section{
 
 .TitleBlock h1{
   font-size: 8vh;
+  max-height: 100%;
   color: #006597;
   text-transform: uppercase;
   padding-top: 5vh;
-}
-
-.TitleBlock p{
-  color: #006597;
-  font-size: 3vh;
-  line-height: 0px;
 }
 
 
@@ -81,12 +76,17 @@ section{
   margin-left: 10%;
   height: 100%;
 }
+.TitleBlock p{
+  color: #006597;
+  font-size: 3vh;
+  line-height: 0px;
+}
 }
 
 @media only screen and (max-width: 600px){
   .footerMobile{
     line-height: 7vh;
-    background: rgba(0,0,0,0.3);
+    background: rgba(0,0,0,0.7);
     }
     .footerMobile >.socialIcons{
       width: 40vw;
@@ -94,6 +94,9 @@ section{
       margin-right: 30vw;
     }
     .footer{
+      display: none;
+    }
+    .TitleBlock p{
       display: none;
     }
   }
